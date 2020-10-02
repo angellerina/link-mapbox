@@ -30,7 +30,7 @@ export default function App() {
     if (direction === "right") theLinkRef = linkRightRef;
 
     context.drawImage(theLinkRef.current, x, y);
-  }, [x, y]);
+  }, [x, y, direction]);
 
   return (
     <div className='app'>
