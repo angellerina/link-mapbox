@@ -56,8 +56,13 @@ body {
   grid-area: down;
 }
 
-.arrows button:last-child {
+.arrows button:nth-child(4) {
   grid-area: right;
+}
+
+.arrows button:last-child {
+  grid-area: auto;
+  background: blue;
 }
 
 .images {

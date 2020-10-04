@@ -35,12 +35,12 @@ export default function App() {
   return (
     <div className='app'>
       <canvas ref={canvasRef} />
-
       <div className='arrows'>
         <button onClick={() => move("up")}>Up</button>
         <button onClick={() => move("left")}>Left</button>
         <button onClick={() => move("down")}>Down</button>
         <button onClick={() => move("right")}>Right</button>
+        <button>Key bind</button>
       </div>
 
       <div className='images'>
